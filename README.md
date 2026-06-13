@@ -11,7 +11,7 @@ The goal is not to implement the entire JavaScript language, but to build a clea
 ## Quick Start
 
 
-First, create an input file named `file.txt` in the same folder as the C++ source files.
+First, create an input file named `file.txt`(already created) in the same folder as the C++ source files.
 
 Put the JavaScript code you want to test inside `file.txt`.
 
@@ -33,16 +33,17 @@ Compile the interpreter:
 g++ -std=c++17 -Wall -Wextra -pedantic main.cpp lexer.cpp parser.cpp interpreter.cpp utils.cpp -o myjs
 ```
 
+
 Run the input file:
+
+## On Windows CMD/powershell  terminal(VS CODE), run:
+```CMD
+.\myjs.exe file.txt
+```
+
 
 ```bash
 ./myjs file.txt
-```
-
-On Windows PowerShell, run:
-
-```powershell
-.\myjs.exe file.txt
 ```
 
 Do not double-click or directly run `file.txt`. Always pass it as input to the interpreter.
