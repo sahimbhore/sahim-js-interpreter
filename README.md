@@ -26,7 +26,9 @@ if (n % 2 === 0) {
   console.log("odd");
 }
 ```
-# Follow following steps by copy paste
+# Follow following steps by copy & paste (to run "file.txt" js-code)
+
+
 
 ## 1. Compile the interpreter:(in CMD/powershell terminal)
 
@@ -35,14 +37,18 @@ g++ -std=c++17 -Wall -Wextra -pedantic main.cpp lexer.cpp parser.cpp interpreter
 ```
 
 
-## 2.Run the input file:(after writing js code in file.txt)
+
+## 2.Run the input file:(validate if js-code is given as input in file.txt)
 
 #### On Windows CMD/powershell  terminal(VS CODE), run:
 ```CMD
 .\myjs.exe file.txt
 ```
 
+
+
 #### other
+
 
 ```bash
 ./myjs file.txt
@@ -52,17 +58,23 @@ Do not double-click or directly run `file.txt`. Always pass it as input to the i
 
 You can edit `file.txt` whenever you want to test different JavaScript code, then run the command again.
 
+
+
 Run using standard input on Linux/macOS:
 
 ```bash
 ./myjs < file.txt
 ```
 
+
+
 Run with debug output on Linux/macOS:
 
 ```bash
 ./myjs file.txt --debug
 ```
+
+
 
 Run with debug output on Windows PowerShell:
 
