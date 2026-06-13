@@ -36,12 +36,12 @@ g++ -std=c++17 -Wall -Wextra -pedantic main.cpp lexer.cpp parser.cpp interpreter
 
 ## 2.Run the input file:(after writing js code in file.txt)
 
-# On Windows CMD/powershell  terminal(VS CODE), run:
+### On Windows CMD/powershell  terminal(VS CODE), run:
 ```CMD
 .\myjs.exe file.txt
 ```
 
-# other
+### other
 ```bash
 ./myjs file.txt
 ```
