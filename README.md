@@ -260,33 +260,6 @@ g++ -std=c++17 -Wall -Wextra -pedantic main.cpp lexer.cpp parser.cpp interpreter
 
 ---
 
-## How to Run
-
-Run a JavaScript file:
-
-```bash
-./myjs file.js
-```
-
-Run code through standard input:
-
-```bash
-./myjs < file.js
-```
-
-Run with debug output:
-
-```bash
-./myjs file.js --debug
-```
-
-or:
-
-```bash
-./myjs --debug < file.js
-```
-
----
 
 ## Example
 
